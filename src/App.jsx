@@ -2,7 +2,7 @@ import { useState } from "react";
 import { BrowserRouter as Router } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import "./App.css";
-// import HeroSection from "./components/HeroSection";
+import HeroSection from "./components/HeroSection";
 // import About from "./components/About";
 // import Skills from "./components/Skills";
 // import Projects from "./components/Projects";
@@ -20,9 +20,9 @@ function App() {
     <Router>
       <div className={`w-full overflow-x-hidden ${darkMode ? "dark" : ""}`}>
         <Navbar />
-        {/* <main className="bg-bg dark:bg-darkBg">
+        <main className="bg-bg dark:bg-darkBg">
           <HeroSection />
-          <div className="w-full bg-gradient-to-br from-purple-800/15  to-blue-800/15 clip-polygon">
+          {/* <div className="w-full bg-gradient-to-br from-purple-800/15  to-blue-800/15 clip-polygon">
             <Skills />
           </div>
           <Projects openModal={openModal} setOpenModal={setOpenModal} />
@@ -33,8 +33,8 @@ function App() {
           <Footer />
           {openModal.state && (
             <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />
-          )}
-        </main> */}
+          )} */}
+        </main>
       </div>
     </Router>
   );
