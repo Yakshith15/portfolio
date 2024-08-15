@@ -9,7 +9,7 @@ import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 // import Experience from "./components/Experience";
-// import Education from "./components/Education";
+import Education from "./components/Education";
 // import ProjectDetails from "./components/ProjectDetails";
 
 function App() {
@@ -27,7 +27,7 @@ function App() {
           </div>
           {/* <Projects openModal={openModal} setOpenModal={setOpenModal} /> */}
           <div className="w-full bg-gradient-to-br from-purple-800/15  to-blue-800/15 clip-polygon">
-            {/* <Education /> */}
+            <Education />
             <Contact />
           </div>
           <Footer />

@@ -335,7 +335,7 @@ export const education = [
     school: "Chaitanya Bharathi Institute of Technology, Hyderabad.",
     date: "Dec 2021 - Today",
     grade: "9.45 CGPA",
-    desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering with specialization in AI&ML at Chaitanya Bharathi Institute of Technology. I have completed 6 semesters and have a CGPA of 9.45. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, among others. I am also the Project Lead of the Neural Nexus (NN) at CBIT, where I am learning and working on exciting projects with a team of talented developers.",
+    desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering with specialization in AI&ML at Chaitanya Bharathi Institute of Technology. I have completed 6 semesters and have a CGPA of 9.45. I have taken courses in DSA, OOP, DBMS, OS, among others. I am also the Project Lead of the Neural Nexus (NN) at CBIT, where I am learning and working on exciting projects with a team of talented developers.",
     degree:
       "Bachelor of Engineering - BE, Computer Science and Engineering[AIML]",
   },

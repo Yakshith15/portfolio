@@ -67,6 +67,7 @@ const Contact = () => {
           <input
             type="submit"
             value="Send"
+            // className="inline-block w-full max-w-[300px] text-center py-4 text-white rounded-[20px] cursor-pointer text-xl font-semibold transition-all duration-200 bg-gradient-to-r from-secondary-dark to-primary-dark hover:scale-105 hover:brightness-110 shadow-xl shadow-bg-dark sm:py-3 sm:text-lg ml-24"
             className="w-full text-center bg-gradient-to-r from-[#8B5CF6] to-[#D946EF] py-3 mt-0.5 rounded-xl border-none text-text-primary-dark text-lg font-semibold cursor-pointer"
           />
         </form>

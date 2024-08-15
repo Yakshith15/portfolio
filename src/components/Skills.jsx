@@ -19,7 +19,7 @@ const Skills = () => {
           {skills.map((skill, index) => (
             <div
               key={index}
-              className="w-full max-w-[500px] bg-card-dark border border-secondary shadow-card hover:shadow-card-hover rounded-2xl p-5 md:max-w-[400px] md:p-3 sm:max-w-[330px] transition-shadow duration-300"
+              className="w-full max-w-[500px] bg-card-dark border border-primary shadow-card hover:shadow-card-hover rounded-2xl p-5 md:max-w-[400px] md:p-3 sm:max-w-[330px] transition-shadow duration-300"
             >
               <h3 className="text-2xl font-semibold text-text-secondary-dark mb-5 text-center">
                 {skill.title}
