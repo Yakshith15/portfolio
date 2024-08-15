@@ -51,6 +51,10 @@ module.exports = {
         "card-hover":
           "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
       },
+      backgroundImage: {
+        "gradient-to-br":
+          "linear-gradient(343.07deg, var(--tw-gradient-stops))",
+      },
     },
     screens: {
       sm: "640px",
@@ -59,5 +63,14 @@ module.exports = {
       xl: "1280px",
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addUtilities }) {
+      const newUtilities = {
+        ".clip-path-polygon": {
+          clipPath: "polygon(0 0, 100% 0, 100% 100%, 100% 98%, 0 100%)",
+        },
+      };
+      addUtilities(newUtilities);
+    },
+  ],
 };
