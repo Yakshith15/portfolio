@@ -12,9 +12,9 @@ const Education = () => {
   return (
     <div
       id="education"
-      className="flex flex-col justify-center items-center relative z-10 pb-15 md:p-0 bg-bg-dark"
+      className="flex flex-col justify-center items-center relative z-10 pb-15 md:p-0  dark:bg-card-dark clip-path-polygon"
     >
-      <div className="relative flex justify-between items-center flex-col w-full max-w-[1350px] pt-10 gap-3">
+      <div className="relative flex justify-between items-center flex-col w-full max-w-[1350px] pt-10 gap-3 pb-10">
         <h2 className="text-4xl text-center font-semibold mt-5 text-text-primary-dark md:mt-3 md:text-3xl">
           Education
         </h2>
@@ -30,7 +30,10 @@ const Education = () => {
                   <EducationCard education={edu} />
                 </TimelineContent>
                 <TimelineSeparator>
-                  <TimelineDot variant="outlined" style={{ background: "#2563EB" }} />
+                  <TimelineDot
+                    variant="outlined"
+                    style={{ background: "#2563EB" }}
+                  />
                   {index !== 4 && (
                     <TimelineConnector style={{ background: "#2563EB" }} />
                   )}

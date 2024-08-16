@@ -18,15 +18,15 @@ function App() {
 
   return (
     <Router>
-      <div className={`w-full overflow-x-hidden ${darkMode ? "dark" : ""}`}>
+      <div className={`w-full overflow-x-hidden`}>
         <Navbar />
         <main className="bg-bg dark:bg-darkBg">
           <HeroSection />
-           <div className="w-full bg-gradient-to-br from-purple-800/15  to-blue-800/15 clip-polygon">
+           <div className="w-full bg-gradient-to-br from-purple-800/15  to-blue-800/15 clip-polygon ">
             <Skills />
           </div>
           <Projects openModal={openModal} setOpenModal={setOpenModal} />
-          <div className="w-full bg-gradient-to-br from-purple-800/15  to-blue-800/15 clip-polygon">
+          <div className="w-full bg-gradient-to-br to-blue-800/15 ">
             <Education />
             <Contact />
           </div>

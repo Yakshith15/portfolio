@@ -15,11 +15,10 @@ const Projects = ({ openModal, setOpenModal }) => {
           Projects
         </h2>
         <p className="text-lg sm:text-xl text-center max-w-[600px] text-text-secondary-dark">
-          I have worked on a wide range of projects. From web apps to android
-          apps. Here are some of my projects.
+          I have worked on a wide range of projects. From web apps to AI applications. Here are some of my projects.
         </p>
         <div className="flex border-2 border-primary-dark text-primary-dark text-base sm:text-lg font-medium rounded-xl my-5 sm:my-6">
-          {["all", "web app", "android app", "machine learning"].map(
+          {["All", "Web Applications", "AI Stuff"].map(
             (item, index) => (
               <React.Fragment key={item}>
                 {index !== 0 && <div className="w-0.5 bg-primary-dark"></div>}

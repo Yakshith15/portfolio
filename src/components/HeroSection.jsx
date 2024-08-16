@@ -6,7 +6,7 @@ const HeroSection = () => {
   return (
     <div
       id="about"
-      className="relative bg-card-light dark:bg-card-dark flex justify-center py-20 px-8 sm:py-16 sm:px-4 z-10 clip-hero"
+      className="relative bg-card-light dark:bg-card-dark flex justify-center py-20 px-8 sm:py-16 sm:px-4 z-10 clip-polygon"
     >
       <div className="relative flex w-full max-w-[1300px]">
         {/* Left Side - Content */}

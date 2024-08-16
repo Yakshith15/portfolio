@@ -5,15 +5,14 @@ import { Snackbar } from "@mui/material";
 const Contact = () => {
   const [open, setOpen] = React.useState(false);
   const form = useRef();
-
   const handleSubmit = (e) => {
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_tox7kqs",
-        "template_nv7k7mj",
+        "service_7umbj75",
+        "template_q46d8nt",
         form.current,
-        "SybVGsYS52j2TfLbi"
+        "LlHJ0mnSHZosogWLz"
       )
       .then(
         (result) => {
@@ -27,7 +26,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="flex flex-col justify-center items-center relative z-10 bg-bg-dark">
+    <div className="flex flex-col justify-center items-center relative z-10 pt-10  bg-bg-dark clip-path-polygon">
       <div className="relative flex justify-between items-center flex-col w-full max-w-[1350px] pb-20 gap-3">
         <h2 className="text-4xl text-center font-semibold mt-5 text-text-primary-dark md:mt-3 md:text-3xl">
           Contact
@@ -67,8 +66,7 @@ const Contact = () => {
           <input
             type="submit"
             value="Send"
-            // className="inline-block w-full max-w-[300px] text-center py-4 text-white rounded-[20px] cursor-pointer text-xl font-semibold transition-all duration-200 bg-gradient-to-r from-secondary-dark to-primary-dark hover:scale-105 hover:brightness-110 shadow-xl shadow-bg-dark sm:py-3 sm:text-lg ml-24"
-            className="w-full text-center bg-gradient-to-r from-[#8B5CF6] to-[#D946EF] py-3 mt-0.5 rounded-xl border-none text-text-primary-dark text-lg font-semibold cursor-pointer"
+            className="w-full text-center py-4 text-white rounded-[20px] cursor-pointer text-xl font-semibold transition-all duration-200 bg-gradient-to-r from-secondary-dark to-primary-dark hover:scale-105 hover:brightness-110 shadow-xl shadow-bg-dark sm:py-3 sm:text-lg"
           />
         </form>
         <Snackbar
